@@ -1,0 +1,130 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-color: rgb(225, 225, 225);
+  font-family: sans-serif;
+  color: #283044;
+  font-size: 12px;
+  line-height: 30px;
+}
+
+h1 {
+  color: #3188E0;
+  font-family: farray, sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+#header {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #59B4AA;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 30px;
+}
+
+p {
+  color: #283044;
+  font-family: 'poppins', sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+
+img {
+  width: 500px;
+}
+
+#logo-red {
+  width: 30px;
+  border-radius: 50%;
+  color: #59B4AA;
+}
+
+.container > div {
+  text-align: center;
+  margin: 20px auto;
+  width: 500px;
+  height: auto;
+  box-shadow: 5px 5px 5px #283044;
+}
+
+.card-white {
+  background-color: rgb(245, 245, 245);
+  border-radius: 1%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.card-white > a {
+  font-size: 40px;
+  background-color: #3188E0;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+.card-white > a:hover {
+  color: #283044;
+}
+
+.list-inline > li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.fab {
+  font-size: 40px;
+  color: #3188E0;
+}
+
+#alex {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.fab:hover {
+  color: #283044;
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container > div {
+    width: 400px;
+  }
+  img {
+    width: 350px;
+  }
+  .card-white > a {
+  font-size: 25px;
+  background-color: #3188E0;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+}
+}
+@media (max-width: 540px) {
+  .container > div {
+    width: 300px;
+  }
+  img {
+    width: 300px;
+  }
+  .card-white > a {
+  font-size: 20px;
+  background-color: #3188E0;
+  color: white;
+  text-decoration: none;
+  border-radius: 7px;
+}
+}
